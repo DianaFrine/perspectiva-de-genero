@@ -1,0 +1,50 @@
+h1
+    { color: rgb(76, 13, 82); font-family: Verdana; }
+h2
+        { color: rgb(122, 22, 126); font-family: Verdana; }
+h3
+    { color: rgb(152, 42, 167); font-family: Verdana; }
+h4 
+    { color: rgb(165, 74, 153); font-family: Verdana; }
+
+body {color: rgb(0, 0, 0); font-family: Verdana;}
+
+li {
+        float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b85ae4;
+}
+
+li a {
+    display: block;
+    color: rgb(49, 5, 66);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(163, 75, 156);
+    color: rgb(193, 127, 224);
+}
+
+td, th{
+    background-color: rgb(144, 71, 185);
+    padding: 1px 1px;
+    border : 1px solid rgb(127, 25, 187);
+}
+
+footer {
+    position:center;
+    left:0px;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    background:#999;
+}
